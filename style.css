@@ -1,0 +1,136 @@
+body {
+    font-family: sans-serif;
+    background-color: white;
+}
+
+header {
+    display:flex;
+    justify-content: space-between;
+    padding:5px ;
+    margin-bottom: 20px;
+    background-color: black;
+}
+
+.button {
+    background-color: #36bbce;
+    color: black;
+    text-decoration: none;
+    margin-top: 13px;
+    padding: 7px 15px 15px 15px;
+    font-size: 24px;
+    border-radius: 10px;
+    height: 20px;
+}
+
+nav {
+    display: flex;
+    border-top: 5px solid rgb(0, 0, 0);
+    border-bottom: 5px solid rgb(0, 0, 0);
+    padding: 25px 100px 25px 95px;
+    justify-content: space-between;
+}
+
+.nav-link {
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 36px;
+    margin-top: ;
+    margin-bottom: ;
+}
+
+p {
+    font-size: 24px;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1100px;
+    margin: 0px;
+}
+
+article {
+    border:2px black;
+    background-color: white;
+    padding:30px ;
+    width: 400px;
+    margin:30px ;
+}
+
+article p {
+    text-align: center;
+}
+
+article h2 {
+    text-align: center;
+}
+
+.article-but1 {
+    text-decoration: none;
+    background-color: #A1652D;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+    margin-left: 65px;
+}
+
+.article-but2 {
+    text-decoration: none;
+    background-color: #33AA00;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+    margin-left: 65px;
+}
+
+.article-but3 {
+    text-decoration: none;
+    background-color: #AC1313;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+    margin-left: 65px;
+}
+
+.article-but4 {
+    text-decoration: none;
+    background-color: #AC13A6;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+    margin-left: 65px;
+}
+
+footer {
+    display: flex;
+    background-color: #95B3EB;
+}
+
+footer a {
+    padding-left:30px ;
+    padding-top: 12px;
+}
+
+footer p {
+    font-size: 24px;
+    padding-left:100px;
+}
+
+
+.imgblack {
+    background-color: black;
+}
+
+main {
+    background-image: linear-gradient(#B0C2FE,#000000);
+}
