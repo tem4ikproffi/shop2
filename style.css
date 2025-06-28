@@ -55,7 +55,9 @@ p {
     margin: 0px;
 }
 
-article {
+article {   
+    display: flex;
+    justify-content: space-around;
     border:2px black;
     background-color: white;
     padding:30px ;
